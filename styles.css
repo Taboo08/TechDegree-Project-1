@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-size: 16px;
+}
+
+header {
+  background-image: url("img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 37.500em;
+}
+
+.header-container {
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 2.50em;
+
+}
+
+.logo {
+  padding: 0;
+  margin: 0;
+  font-family: 'Atomic Age', cursive;
+  font-size: 1.5em;
+  color: #FFAB00;
+  float: left;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.logo:hover {
+  opacity: 0.30;
+
+}
+
+nav {
+  float: right;
+}
+
+nav a:link {
+  font-family: 'Chau Philomene One', sans-serif;
+  font-size: 1.375em;
+  color: #00C7B0;
+  text-decoration: none;
+  padding-right: 0.938em;
+}
+
+.big-head {
+  margin-top: 6.250em;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.profile-image {
+  height: 12.500em;
+  width: 12.500em;
+  float: left;
+  border-radius: 100%;
+  border: 1px solid #000;
+  transition: all .5s;
+  margin-left: 7.500em;
+}
+
+.profile-image:hover {
+  border-radius: 100%;
+  border: 3px solid #000;
+  transform: scale(1.2) rotate(360deg);
+}
+
+.profile-info {
+  font-family: 'Atomic Age', cursive;
+  font-size: 1.5em;
+  line-height: 0.80em;
+  color: #F56C62;
+}
+
+.head-titles {
+  padding: 2.500em 7.500em 0 0;
+  float: right;
+}
+
+main {
+  background-color: #F56C62;
+  height: 37.500em;
+}
+
+
+
+/* ------------- CLEAR FIX ------------- */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
