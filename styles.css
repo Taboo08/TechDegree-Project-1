@@ -1,12 +1,15 @@
+/* -------------- UNIVERSAL STYLE ------------------ */
 * {
     box-sizing: border-box;
 }
 
+/* -------------- BODY STYLE ------------------ */
 body {
   width: 100%;
   font-size: 16px;
 }
 
+/* -------------- HEADER STYLE ------------------ */
 header {
   background-image: url("img/header-bg.jpg");
   background-repeat: no-repeat;
@@ -49,6 +52,23 @@ nav a:link {
   padding-right: 0.938em;
 }
 
+nav a:visited {
+  font-family: 'Chau Philomene One', sans-serif;
+  font-size: 1.375em;
+  color: #00C7B0;
+  text-decoration: none;
+  padding-right: 0.938em;
+}
+
+nav a:hover {
+  font-family: 'Chau Philomene One', sans-serif;
+  font-size: 1.375em;
+  color: #00C7B0;
+  opacity: 0.4;
+  text-decoration: none;
+  padding-right: 0.938em;
+}
+
 .big-head {
   margin-top: 6.250em;
   display: inline-block;
@@ -84,13 +104,58 @@ nav a:link {
   float: right;
 }
 
+/* -------------- MAIN STYLE ------------------ */
 main {
   background-color: #F56C62;
   height: 37.500em;
 }
 
+.main-container {
+  width: 65%;
+  margin: 0 auto;
+}
 
+.main-container p {
+  font-size: 1.1em;
+  font-family: 'Chau Philomene One', sans-serif;
+  color: #E6E9DC;
+  line-height: 1.4em;
+}
 
+.about-title {
+  margin: 0;
+  font-family: 'Atomic Age', cursive;
+  font-size: 2.2em;
+  color: #FFAB00;
+}
+
+.left-col {
+  float: left;
+  width: 50%;
+  padding: 100px 40px 0 0;
+}
+
+.right-col {
+  float: right;
+  width: 50%;
+  padding: 100px 0 0 40px;
+}
+
+/* -------------- WORK STYLE ------------------ */
+.work {
+  width: 100%;
+  background-color: #00C7B0;
+  height: 600px;
+}
+
+.work-container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.work h1 {
+  margin: 0;
+}
 /* ------------- CLEAR FIX ------------- */
 .clearfix::after {
     content: "";
