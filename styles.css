@@ -145,7 +145,6 @@ main {
   font-size: 1.1em;
   font-family: 'Chau Philomene One', sans-serif;
   letter-spacing: 2px;
-  /* font-weight: normal; */
   color: #00C7B0;
 }
 
@@ -162,12 +161,12 @@ main {
 /* -------------- WORK STYLE ------------------ */
 .work {
   background-color: #00C7B0;
-  height: 600px;
 }
 
 .work-container {
   width: 65%;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .work h1 {
@@ -182,8 +181,8 @@ main {
 .gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
     width: 300px;
+    float: left;
 }
 
 .gallery:hover {
